@@ -13,7 +13,8 @@ slider-container {
 }
 
 .slide img {
-  width: 100%;
+  max-width: 100%; /* Imágenes responsivas */
+  height: auto;
 }
 
 .logo img{
