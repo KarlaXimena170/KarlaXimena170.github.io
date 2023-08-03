@@ -10,11 +10,11 @@
   transition: transform 0.4s ease;
 }
 
-.slidee {
+.slide {
   min-width: 100%;
 }
 
-.slidee img {
+.slide img {
   max-width: 100%;
   height: auto;
 }
@@ -27,7 +27,7 @@
   align-items: center;
 }
 @media screen and (max-width: 768px) {
-  .slidee {
+  .slide {
       flex: 0 0 100%;
   }
 }
