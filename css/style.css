@@ -13,8 +13,8 @@
 }
 
 .slide img {
-   height: 100%;
-  max-width: 100%
+   height:max-content;
+  width:max-content;
 }
 
 .logo img{
