@@ -6,6 +6,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    line-height: 1.6;
   }
   
   .card-container {
@@ -25,6 +26,8 @@ body {
     position: relative;
     transition: transform 0.2s, box-shadow 0.2s;
     justify-content: center;
+    display: flex;
+    
   }
   
   .card img {
@@ -33,6 +36,7 @@ body {
     object-fit: cover;
     object-position: center;
     justify-content: center;
+     display: flex;
   }
   
   .card-content {
@@ -44,12 +48,14 @@ body {
     font-size: 28px;
     margin-bottom: 10px;
     color: white;
+    display: flex;
   }
   
   .card p {
     font-size: 100%;
     color: #ffffff;
     text-align: justify;
+    display: flex;
   }
   
   .card:hover {
@@ -70,11 +76,14 @@ body {
     color: white;
     text-align: center;
     padding-top: 5%;
+    display: flex;
 }
 
 h2{
   font-size: 30px;
   color: #ffffff;
   justify-content:center; 
+  display: flex;
 }
+
 
