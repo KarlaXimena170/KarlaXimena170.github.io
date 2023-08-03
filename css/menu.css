@@ -1,26 +1,26 @@
+
+
 .menu1{
     list-style: none; /*quitar viñetas*/
-    padding: 25px;;
-    margin: 0;
+    padding: 20px;;
+    margin: auto;
     width: 100%;
     background-color:rgb(92, 14, 41);
-   display: inline-block;
-    align-items: center;
+   
+    
 
 }
 
 .menu1 li a{
     text-decoration: none; /*quitar subrayado*/
     color: rgb(255, 255, 255);
-    padding: 25px; /*separar los elementos*/
+    padding: 20px; /*separar los elementos*/
     font-family:Arial, Helvetica, sans-serif;
     display:inline;
-    font-weight: 600;
-   font-size: xx-large;
-
-
- 
-  
+    font-size: 100%;
+   font-style: normal;
+  font-weight: 600;
+  text-align: center;
  
  
 }
@@ -29,9 +29,8 @@
     list-style: none; /*quitar viñetas*/
     display: inline-block; /*linea horizontal*/
     text-align: center;
-    
-
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
    
     
 
@@ -64,19 +63,13 @@ a{
 
   }
 
-@media(max-width:700px)
-{
+
+ @media(max-width:700px){
   .menu1{
     flex-direction: column;
-    padding: 10;
+    padding: 10px;
   }
-
-}
- 
-
-  
-
-
+ }
 
   
 
