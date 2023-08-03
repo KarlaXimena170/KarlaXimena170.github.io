@@ -1,11 +1,11 @@
-
-
-.menu1{
+menu1{
     list-style: none; /*quitar viñetas*/
     padding: 1%;
     margin: auto;
     width: 100%;
     background-color:rgb(92, 14, 41);
+    display: flex;
+    flex-wrap: wrap;
     
     
 
@@ -15,7 +15,9 @@
     text-decoration: none; /*quitar subrayado*/
     color: rgb(255, 255, 255);
     padding: 10px 20px; /*separar los elementos*/
- font-family:Arial, Helvetica, sans-serif
+ font-family:Arial, Helvetica, sans-serif;
+ display: flex;
+ flex-wrap: wrap;
 }
 
 .menu1 li{
@@ -23,6 +25,7 @@
     display: inline-block; /*linea horizontal*/
     text-align: center;
     font-size: 10%;
+    font-display: 10%;
     
 
 }
@@ -67,3 +70,8 @@ a{
     text-decoration: none;
 
   }
+
+  
+
+
+ 
