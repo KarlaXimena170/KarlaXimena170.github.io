@@ -4,10 +4,10 @@
     list-style: none; /*quitar viñetas*/
     padding-bottom: 1%;
     margin: auto;
-    width: 100%;
+    width: auto;
     background-color:rgb(92, 14, 41);
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     
 
 }
