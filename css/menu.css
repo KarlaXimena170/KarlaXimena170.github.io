@@ -65,7 +65,7 @@ a{
 
   }
 
-@media(max-width:1080px){
+@media(max-width:720px){
 .menu1{
    flex-direction: column;
    padding: 20px;
