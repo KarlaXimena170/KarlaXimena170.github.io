@@ -1,5 +1,5 @@
-.slider-container {
-  width: 75%;
+slider-container {
+  width: 100%;
   overflow: hidden;
 }
 
@@ -13,14 +13,13 @@
 }
 
 .slide img {
-  height:100%;
-  width:75%;
+  width: 100%;
 }
 
 .logo img{
 
-  width:40%;
-  height:10%;
+  max-width: 100%; /* Imágenes responsivas */
+  height: auto;
   align-items: center;
 }
 @media screen and (max-width: 768px) {
