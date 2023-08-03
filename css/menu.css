@@ -4,10 +4,9 @@
     list-style: none; /*quitar viñetas*/
     padding-bottom: 1%;
     margin: auto;
-    width: auto;
     background-color:rgb(92, 14, 41);
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
     
 
 }
