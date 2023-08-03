@@ -23,7 +23,7 @@
 
   width:40%;
   height:10%;
-  align-items: center;
+  align-items: center:
 }
 @media screen and (max-width: 768px) {
   .slide {
