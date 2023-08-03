@@ -1,5 +1,5 @@
 .slider-container {
-  width: 100%;
+  width: 75%;
   overflow: hidden;
 }
 
@@ -13,8 +13,8 @@
 }
 
 .slide img {
-   height:max-content;
-  width:max-content;
+  height:100%;
+  width:75%;
 }
 
 .logo img{
