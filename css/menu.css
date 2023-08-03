@@ -18,7 +18,7 @@
     padding: 10px 20px; /*separar los elementos*/
     font-family:Arial, Helvetica, sans-serif;
     display:inline;
-    font-size: 190%;
+    font-size: 100%;
    font-style: normal;
    padding-right:auto;
     padding-left:auto;
@@ -33,7 +33,7 @@
     display: inline-block; /*linea horizontal*/
     text-align: center;
     
-    font-display: 190%;
+    font-display: 100%;
     font-family: Arial, Helvetica, sans-serif;
    
     
