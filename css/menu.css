@@ -1,8 +1,6 @@
-
-
 .menu1{
     list-style: none; /*quitar viñetas*/
-    padding-left: 5%;;
+    padding: 25px;;
     margin: 0;
     width: 100%;
     background-color:rgb(92, 14, 41);
@@ -70,11 +68,18 @@ a{
 @media(max-width:700px){
 .menu1{
    flex-direction: column;
-   padding: 10px;
+   padding: 20px;
 
 }
 
 }
+ 
+
+  
+
+
+
+  
 
   
 
