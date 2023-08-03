@@ -4,9 +4,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-   
-   
- 
+    margin: 0;
+    line-height: 1.6;
   }
   
   .card-container {
@@ -17,8 +16,8 @@ body {
   
   .card {
     flex: 1%;
-    width: auto;
-    height: auto;
+    width: 80%;
+    height: 80%;
     background-color: rgb(92, 14, 41);
     border-radius: 5%;
     box-shadow: 0 10% 100% rgba(0, 0, 0, 0.1);
@@ -51,12 +50,12 @@ body {
     font-size: 100%;
     margin-bottom: 6%;
     color: white;
-    display: block;
+     text-align:center;
    
   }
   
   .card p {
-    font-size: 100%;
+    font-size: 90%;
     color: #ffffff;
     text-align: justify;
     display: block;
@@ -85,7 +84,7 @@ body {
 }
 
 h2{
-  font-size: 100%;
+  font-size: 200%;
   color: #ffffff;
   justify-content:center; 
  
@@ -96,3 +95,4 @@ h2{
       padding-top: 100%;
   }
 }
+
