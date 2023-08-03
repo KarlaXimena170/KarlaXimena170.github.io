@@ -86,4 +86,8 @@ h2{
   display: flex;
 }
 
-
+@media screen and (max-width: 768px) {
+    header, nav, main, footer {
+        padding: 10px;
+    }
+}
