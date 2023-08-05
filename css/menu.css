@@ -1,3 +1,7 @@
+
+/* Estilos responsivos */
+
+
 .menu{
   list-style: none; /*quitar viñetas*/
   padding: 10px;;
@@ -17,7 +21,7 @@
 .menu1{
   list-style: none; /*quitar viñetas*/
   padding: 1%;
-  margin: 10px;
+  margin: 5px;
   max-width: 100%;
   height: auto;
   background-color:rgb(92, 14, 41);
@@ -143,6 +147,25 @@ a:hover {
   display: flex;
   }
 }
+
+
+@media screen and (max-width: 800px) {
+  .menu1 {
+      padding-top: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav-links {
+      padding-top: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .menu1 {
+      padding-top: 100%;
+  }
+}
+
 
 
 
