@@ -1,14 +1,10 @@
-
-/* Estilos responsivos */
-
-
 .menu{
   list-style: none; /*quitar viñetas*/
   padding: 10px;;
   margin: auto;
   max-width: 100%;
-  height:auto;
   background-color:rgb(92, 14, 41);
+  display: flex;
  
 
   align-items: center;
@@ -28,6 +24,7 @@
   display: flex;
   justify-content:center;
   color: #fffafa;
+  display: flex;
 
 
 
@@ -42,8 +39,8 @@
  font-style: normal;
 font-weight: 600;
 text-align: center;
-font-size: 17px;
-
+font-size: 18px;
+display: flex;
 
 }
 
@@ -114,7 +111,7 @@ a:hover {
 
 
 
-@media (max-width:500px){
+@media (max-width:800px){
   .menu1{
     list-style: none; /*quitar viñetas*/
   padding: 20px;;
@@ -132,20 +129,20 @@ a:hover {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width:800px){
+  .nav-links li a{
+    text-decoration: none; /*quitar subrayado*/
+    color: rgb(255, 255, 255);
+    padding: 1%; /*separar los elementos*/
+    font-family:Arial, Helvetica, sans-serif;
+    display:inline;
+   font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  }
+}
 
 
 
