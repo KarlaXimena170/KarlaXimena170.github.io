@@ -85,14 +85,7 @@ a:hover {
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
-  .menu1 {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    
-  }
-}
+
 
 .nav-links.active {
   display: flex;
@@ -131,23 +124,20 @@ align-items: center;
 align-items: center;
 }
 
-@media (max-width:700px){
-  .menu1{
-    flex-direction: column;
-    padding: 10px;
+@media screen and (max-width:980px) {
+  .container-fluid {
+    width:98%;
   }
-
+  section {
+    width:68%;
+  }
 }
 
-@media (max-width:700px){
-  .nav-links{
-    flex-direction: column;
-    padding: 10px;
-  }
-
+.container-fluid {
+  width:996px;
+  margin:0px auto;
+  font-size:1em;
 }
-
-
 
 
 
