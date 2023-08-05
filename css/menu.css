@@ -113,7 +113,7 @@ a:hover {
 
 
 
-@media (max-width:700px){
+@media (max-width:800px){
   .menu1{
     list-style: none; /*quitar viñetas*/
   padding: 20px;;
