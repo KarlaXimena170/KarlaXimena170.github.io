@@ -24,7 +24,7 @@ body {
     padding: 20px;
   }
   .card {
-    flex: 1%;
+    flex: 10%;
     max-width: 100%;
     height: auto;
     background-color: rgb(92, 14, 41);
@@ -34,7 +34,7 @@ body {
     position: relative;
     transition: transform 0.2s, box-shadow 0.2s;
     justify-content: center;
-    display:block
+    display:block;
     
   }
   
@@ -56,7 +56,7 @@ body {
   }
   
   .card h2 {
-    font-size: 2.0rem; /* 2.5 veces el tamaño base de la fuente */
+    font-size: 100%; /* 2.5 veces el tamaño base de la fuente */
     margin-bottom: 10%;
     color: white;
      text-align:center;
@@ -70,7 +70,7 @@ body {
     color: #ffffff;
     text-align: justify;
     display: block;
-    font-size: 1.0rem; /* 1.5 veces el tamaño base de la fuente */
+    font-size: 100%; /* 1.5 veces el tamaño base de la fuente */
   line-height: 1.0;
    
   }
@@ -89,10 +89,10 @@ body {
     background-size: cover;
     /* Ajusta el tamaño y otros estilos del div según tus necesidades */
     width: 100vw;
-  height: 100vh;
+    height: 100vh;
     color: white;
     text-align: center;
-    padding-top: 5%;
+    padding: 20px;
     
 }
 
@@ -101,13 +101,17 @@ h2{
   line-height: 1.5;
   color: #ffffff;
   justify-content:center; 
+  padding: 20px;
   
  
 }
 
-@media screen and (max-width: 768px) {
-  header, nav, footer {
+@media screen and (max-width: 700px) {
+  .card-container {
       padding-top: 100%;
   }
 }
+
+
+
 
