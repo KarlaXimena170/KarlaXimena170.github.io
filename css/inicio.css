@@ -88,8 +88,8 @@ body {
     background-position: center;
     background-size: cover;
     /* Ajusta el tamaño y otros estilos del div según tus necesidades */
-    width: 100vw;
-    height: 100vh;
+    max-width: 100%;
+    height: auto;
     color: white;
     text-align: center;
     padding: 20px;
@@ -106,7 +106,7 @@ h2{
  
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .card-container {
       padding-top: 100%;
   }
