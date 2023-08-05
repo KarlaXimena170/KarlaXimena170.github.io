@@ -41,7 +41,7 @@
  font-style: normal;
 font-weight: 600;
 text-align: center;
-font-size: 18px;
+font-size: 17px;
 
 
 }
@@ -113,7 +113,7 @@ a:hover {
 
 
 
-@media (max-width:320px){
+@media (max-width:450px){
   .menu1{
     list-style: none; /*quitar viñetas*/
   padding: 20px;;
