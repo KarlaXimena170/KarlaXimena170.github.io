@@ -56,7 +56,7 @@ body {
   }
   
   .card h2 {
-    font-size: 100%; /* 2.5 veces el tamaño base de la fuente */
+    font-size: 2.5; /* 2.5 veces el tamaño base de la fuente */
     margin-bottom: 10%;
     color: white;
      text-align:center;
@@ -106,7 +106,7 @@ h2{
  
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .card-container {
       padding-top: 100%;
   }
