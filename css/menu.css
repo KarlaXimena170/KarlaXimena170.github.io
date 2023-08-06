@@ -13,19 +13,19 @@ body{
 .nav-links li a{
   text-decoration: none; /*quitar subrayado*/
   color: rgb(255, 255, 255);
-  padding: 10px; /*separar los elementos*/
+  padding:1%; /*separar los elementos*/
   font-family:Arial, Helvetica, sans-serif;
  font-style: normal;
 font-weight: 600;
 text-align: center;
-font-size: 18px;
 display: flex;
+font-size: 50%;
 
 }
 
 .nav-links li{
   list-style: none; /*quitar viñetas*/
-  display: inline-block; /*linea horizontal*/
+  display:inline-block; /*linea horizontal*/
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -90,8 +90,8 @@ a:hover {
   align-items: center;
   justify-content: center;
   list-style: none; /*quitar viñetas*/
-  max-width: 100%;
-  height: auto;
+  max-width: 90%;
+  height: 50%;
   background-color:rgb(92, 14, 41);
   color: #fffafa;
 
@@ -99,17 +99,17 @@ a:hover {
 
 
 
-@media screen and (max-width: 768px) {
+@media  (max-width: 400px) {
   .menu1 {
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
+    min-width: 100%;
     height: auto;
     flex: 0 0 100%;
   }
 
   .logo {
-    max-width: 100%;
+    min-width: 100%;
   }
 
   .nav-links {
@@ -122,7 +122,7 @@ a:hover {
     padding: 5px 0;
   }
   .container-fluid {
-   max-width: 100%;
+   min-width: 100%;
   }
 }
 
