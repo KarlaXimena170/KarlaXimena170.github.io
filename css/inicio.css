@@ -131,3 +131,14 @@ justify-content:center;
  
 }
 
+.sub   {
+  font-size: 100%;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 20px;
+  position: static;
+  
+ 
+}
+
