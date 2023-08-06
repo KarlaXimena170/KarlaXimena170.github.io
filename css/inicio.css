@@ -140,16 +140,17 @@ justify-content:center;
   position: static;
   
  
-.titul    {
-  font-size:50%;
-  font-weight: 600;
+
+
+ .titul    {
+  font-size:150%;
+  font-weight: 700;
   color: #ffffff;
   text-align: center;
   display: block;
   padding: 30px;
-
+  position: static;
   align-items: center;
- 
-  
+  font-family: 'Times New Roman', Times, serif;
 }
 
