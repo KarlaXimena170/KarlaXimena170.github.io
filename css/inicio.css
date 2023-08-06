@@ -17,7 +17,7 @@ body {
 
 .tarjeta {
   flex: 100%;
-  max-width: 50%;
+  max-width: 45%;
   height: auto;
   background-color: rgb(92, 14, 41);
   border-radius: 5%;
@@ -48,7 +48,7 @@ body {
 }
 
 .tarjeta h2 {
-  font-size: 100%;
+  font-size: 90%;
   margin-bottom: 6%;
   color: white;
    text-align:center;
@@ -80,7 +80,7 @@ body {
   height: 100%;
   color: white;
   text-align: center;
-padding: 30px;
+padding: 0px;
   
 }
 
@@ -108,7 +108,7 @@ justify-content:center;
   }
 }
 
-.info  {
+.info   {
   font-size: 100%;
   color: #ffffff;
   text-align: justify;
@@ -119,7 +119,7 @@ justify-content:center;
  
 }
 
-.titulo  {
+.titulo h2  {
   font-size:120%;
   font-weight: 700;
   color: #ffffff;
@@ -130,6 +130,4 @@ justify-content:center;
   
  
 }
-
-
 
