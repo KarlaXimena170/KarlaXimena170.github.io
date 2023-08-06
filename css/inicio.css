@@ -140,15 +140,16 @@ justify-content:center;
   position: static;
   
  
-.titul h1   {
-  font-size:100%;
-  font-weight: 700;
+.titul    {
+  font-size:110%;
+  font-weight: 600;
   color: #ffffff;
   text-align: center;
   display: block;
   padding: 30px;
-  position: static;
+
   align-items: center;
+ 
   
 }
 
