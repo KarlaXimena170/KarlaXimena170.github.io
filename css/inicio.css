@@ -25,7 +25,7 @@ body {
   }
   .card {
     flex: 10%;
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
     background-color: rgb(92, 14, 41);
     border-radius: 5%;
@@ -39,7 +39,7 @@ body {
   }
   
   .card img {
-    max-width: 100%;
+    max-width: 300px;
   height: auto;
     object-fit: cover;
     object-position: center;
