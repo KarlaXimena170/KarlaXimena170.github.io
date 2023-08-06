@@ -142,8 +142,8 @@ justify-content:center;
  
 
 
- .titul    {
-  font-size:150%;
+ .titul p {
+  font-size:100%;
   font-weight: 700;
   color: #ffffff;
   text-align: center;
