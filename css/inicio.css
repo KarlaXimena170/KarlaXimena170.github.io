@@ -141,4 +141,14 @@ justify-content:center;
   
  
 }
+.titul h2  {
+  font-size:100%;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 30px;
+  position: static;
+  
+}
 
