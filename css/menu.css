@@ -1,7 +1,7 @@
-
 body{
   margin: 0%;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(219, 205, 170);
 }
 
 
@@ -13,9 +13,8 @@ body{
 .nav-links li a{
   text-decoration: none; /*quitar subrayado*/
   color: rgb(255, 255, 255);
-  padding: 1%; /*separar los elementos*/
+  padding: 10px; /*separar los elementos*/
   font-family:Arial, Helvetica, sans-serif;
-  display:inline;
  font-style: normal;
 font-weight: 600;
 text-align: center;
@@ -24,12 +23,13 @@ display: flex;
 
 }
 
-.menu1 li{
+.nav-links li{
   list-style: none; /*quitar viñetas*/
   display: inline-block; /*linea horizontal*/
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
+  padding: 0 10px;
 
  
   
@@ -65,31 +65,9 @@ a:hover {
 
 }
 
-  .nav-links.active {
-    transform: translateX(0);
-  }
-
-.nav-links {
-  list-style: none;
-  display: flex;
-}
-
-.nav-links li {
-  padding: 0 10px;
-}
-
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
 
 
 
-.nav-links.active {
-  display: flex;
-}
 
 *{
   box-sizing: 0;
@@ -99,46 +77,62 @@ a:hover {
 }
 
 
-
-header{
+.nav-links {
+  list-style: none;
   display: flex;
-  justify-content: space-between;
-  min-height: 70px;
-  list-style: none; /*quitar viñetas*/
-  max-width: 100%;
-  height: auto;
-  background-color:rgb(92, 14, 41);
-  color: #fffafa;
-align-items: center;
-
 }
+
+
+
 .menu1{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   justify-content: center;
-  min-height: 70px;
   list-style: none; /*quitar viñetas*/
   max-width: 100%;
   height: auto;
   background-color:rgb(92, 14, 41);
   color: #fffafa;
-align-items: center;
+
 }
 
-@media screen and (max-width:980px) {
-  .container-fluid {
-    width:98%;
+
+
+@media screen and (max-width: 768px) {
+  .menu1 {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    flex: 0 0 100%;
   }
-  section {
-    width:68%;
+
+  .logo {
+    max-width: 100%;
+  }
+
+  .nav-links {
+    margin-top: 0%;
+    text-align: center;
+    flex: 0 0 100%;
+  }
+
+  .nav-links li {
+    padding: 5px 0;
+  }
+  .container-fluid {
+   max-width: 100%;
   }
 }
+
 
 .container-fluid {
-  width:996px;
+  max-width: 100%;
+  height: auto;
   margin:0px auto;
   font-size:1em;
 }
-
 
 
 
