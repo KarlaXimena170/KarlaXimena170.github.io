@@ -6,24 +6,31 @@ body {
 
 
 .tarjeta{
-    display: flex;
-    background-color:#84123F;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    overflow: hidden;
-    max-width: 1300px;
-    align-items: center;
-    align-content: center;
-  }
+  display: flex;
+  background-color:#84123F;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 90%;
+  align-items: center;
+  align-content: center;
+}
    .titulo {
-    text-align: center;
-    font-size: 80px;
-    color: #ffffff;
-    font-family: 'Times New Roman', Times, serif;
-
-  }
+    
+      text-align: center;
+      font-size: 100%;
+      color: #ffffff;
+        
+    }
+  
+    .personalizado h1 {
+      text-align: center;
+      font-size: 200%;
+      color: #ffffff;
+        
+    }
   .imagen img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     object-fit: cover;
     align-self:center;
@@ -39,51 +46,55 @@ body {
   
   
   p{
-      color: #ffffff;
-      text-align: justify;
-      font-size: 20px;
-      font-family: Arial, Helvetica, sans-serif;
-  }
+    color: #ffffff;
+    text-align: justify;
+    font-size: 18px;
+}
+
 
   
   .info {
-    padding: 20px;
+    padding: 0px;
 }
 
 
 .imagen-de-fondo {
-    background-image: url('../imagenes/degustación.jpg');
+   background-color: #84123F;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     /* Ajusta el tamaño y otros estilos del div según tus necesidades */
-    max-width: 100%;
+    width: 100%;
     height: 100%;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding-top: 150px;
-    font-family: Arial, Helvetica, sans-serif;
     
+    text-align: center;
+  padding: 0px;
 }
+
 
 
 .enoturismo{
-  text-align: center;
-  font-size: 80px;
-  color: #ffffff;
-  font-family: 'Times New Roman', Times, serif;
-  
-  border-color: #000000;
+  font-size:120%;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    padding: 30px;
+    position: static;
+    
 
 }
 
-.eno{
-  color: #fffcfc;
+.eno  {
+
+  font-size: 100%;
+  font-family:sans-serif;
+  padding: 20px;
     text-align: justify;
-    font-size: 25px; 
+  
     font-family:Arial, Helvetica, sans-serif;
-    padding: 18px;
+    
    
     background-color:#84123F;
 
@@ -97,8 +108,8 @@ body {
 }
 
 .imagen img {
-  width: 450px;
-  height: 750px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
   align-self:center;
 }
@@ -128,7 +139,7 @@ body {
 }
 
 .container_colum {
-  display: flex;
+  display:block;
 }
 
 .column {
@@ -145,7 +156,7 @@ body {
 }
 
 .minimal-button {
-  display: inline-block;
+  display: block;
   padding: 10px 20px;
   background-color: #ffffff;
   border: 1px solid #84123F;
@@ -154,7 +165,7 @@ body {
   border-radius: 5px;
   transition: background-color 0.3s ease;
   font-family: 'Times New Roman', Times, serif;
-  width: calc(33.33% - 10px); /* Distribuir en tres columnas */
+  
   padding: 10px;
   margin: 5px;
 
@@ -166,4 +177,29 @@ body {
 .minimal-button:hover {
   background-color: #ddd;
 
+}
+
+
+
+.titulo1  {
+  font-size:120%;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 30px;
+  position: static;
+  
+ 
+}
+
+.sub1   {
+  font-size: 100%;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 20px;
+  position: static;
+  
+ 
 }
