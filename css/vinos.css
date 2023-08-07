@@ -1,4 +1,4 @@
-slider-container {
+.slider-container {
     width: 100%;
     overflow: hidden;
   }
@@ -188,10 +188,18 @@ slider-container {
 text-align: justify;
 }
 
-.personalizados h1{
-    text-align: center;
-    font-size: 75px;
-    color: #ffffff;
+.personalizados {
+  text-align: center;
+  font-size: 150%;
+  color: #ffffff;
+    
+}
+
+.personalizado h1 {
+  text-align: center;
+  font-size: 100%;
+  color: #ffffff;
+    
 }
 
 
@@ -339,5 +347,6 @@ input[type="submit"]:hover {
     
    
   }
+  
   
   
