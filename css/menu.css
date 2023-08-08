@@ -1,27 +1,20 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(219, 205, 170);
-
+  margin: auto;
 }
-
-
-
-
-
-
 
 .nav-links li a{
   text-decoration: none; /*quitar subrayado*/
   color: rgb(255, 255, 255);
-  padding: 5px 6.5px 5px 6.5px;
- 
+  padding:1%; /*separar los elementos*/
   font-family:Arial, Helvetica, sans-serif;
  font-style: normal;
-
+font-weight: 600;
 text-align: center;
 display: flex;
-font-size: 50%;
-max-width: 100%;
+font-size: 60%;
+position:sticky;
 
 }
 
@@ -29,12 +22,12 @@ max-width: 100%;
   list-style: none; /*quitar viñetas*/
   display:inline-block; /*linea horizontal*/
   text-align: center;
-
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-  padding:1%;
-  
- 
-  
+  padding: 0 15px;
+  display: flex;
+  gap: 2em;
+  position:sticky;
 
  
   
@@ -91,9 +84,9 @@ a:hover {
 
 .menu1{
   display: flex;
-
+  justify-content: space-between;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   list-style: none; /*quitar viñetas*/
   width: 100%;
   height:100%;
@@ -101,12 +94,12 @@ a:hover {
   background-color:rgb(92, 14, 41);
   color: #fffafa;
 
- 
+  gap: 2em;
 
 }
 .menu1{
   list-style: none; /*quitar viñetas*/
-  padding: 20px;;
+  padding: 10px;;
   margin: auto;
   max-width: 100%;
   background-color:rgb(92, 14, 41);
