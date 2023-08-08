@@ -1,7 +1,7 @@
-body{
-  margin: 0%;
+body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(219, 205, 170);
+
 }
 
 
@@ -13,13 +13,15 @@ body{
 .nav-links li a{
   text-decoration: none; /*quitar subrayado*/
   color: rgb(255, 255, 255);
-  padding:1%; /*separar los elementos*/
+  padding: 5px 6.5px 5px 6.5px;
+ 
   font-family:Arial, Helvetica, sans-serif;
  font-style: normal;
-font-weight: 600;
+
 text-align: center;
 display: flex;
-font-size: 60%;
+font-size: 50%;
+max-width: 100%;
 
 }
 
@@ -27,9 +29,12 @@ font-size: 60%;
   list-style: none; /*quitar viñetas*/
   display:inline-block; /*linea horizontal*/
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+
   font-weight: 600;
-  padding: 0 10px;
+  padding:1%;
+  
+ 
+  
 
  
   
@@ -86,14 +91,27 @@ a:hover {
 
 .menu1{
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
-  justify-content: center;
+  justify-content:center;
   list-style: none; /*quitar viñetas*/
- width: 100%;
+  width: 100%;
   height:100%;
+  position:sticky;
   background-color:rgb(92, 14, 41);
   color: #fffafa;
+
+ 
+
+}
+.menu1{
+  list-style: none; /*quitar viñetas*/
+  padding: 20px;;
+  margin: auto;
+  max-width: 100%;
+  background-color:rgb(92, 14, 41);
+ 
+  
 
 }
 
@@ -103,13 +121,13 @@ a:hover {
   .menu1 {
     flex-direction: column;
     align-items: center;
-    min-width: 100%;
+    max-width: 100%;
     height: auto;
     flex: 0 0 100%;
   }
 
   .logo {
-    min-width: 100%;
+    max-width: 100%;
   }
 
   .nav-links {
@@ -122,7 +140,9 @@ a:hover {
     padding: 5px 0;
   }
   .container-fluid {
-   min-width: 100%;
+   max-width: 100%;
+   margin:0px auto;
+   font-size:1em;
   }
 }
 
@@ -133,7 +153,6 @@ a:hover {
   margin:0px auto;
   font-size:1em;
 }
-
 
 
 
